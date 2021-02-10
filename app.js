@@ -128,4 +128,24 @@ switch (lowerRenton) {
         alert ('Incorrect, I live in Renton.')
 }
 
+let userAnswer = parseInt( prompt('What is my favorite number between 1-10?'))
+let guessAmount = 4
+let correctAnswer = 7
+console.log (correctAnswer);
+
+for (let i = 0; i < guessAmount; i += 1){
+    if (userAnswer === correctAnswer){
+        alert('You are correct!');
+        break;
+    } else if (userAnswer < correctAnswer){
+        alert('That is too low.');
+    } else if (userAnswer > correctAnswer){
+        alert('That is too high.');
+    } 
+    if (i < guessAmount - 1){
+    userAnswer = parseInt( prompt('What is my favorite number between 1-10?'))
+    }
+}
+alert ('Nice job at guessing the number. The correct number is 7.')
+
 alert ('Thanks for playing my game, ' + userName)

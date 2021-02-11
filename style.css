@@ -1,27 +1,45 @@
+* {
+    background-color: aliceblue;
+}
+
 header {
     text-align: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+body {
+    border: solid 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
 }
 
 p {
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-ul, ol {
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: white;
+    padding: 50 px;
+    margin: 25px;
 }
 
 ul {
-    list-style: circle;
+    list-style: square;
 }
 
 ol {
     list-style: decimal;
 }
 
+ul, ol {
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 25px;
+}
+
 h1, h2 {
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    text-decoration: bold;
+    color: navy;
+    background-color: white;
+    text-size-adjust: 20px;
 }

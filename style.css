@@ -9,15 +9,13 @@ header {
 }
 
 body {
-    margin-left: 350px;
-    background-color: white;
     background-image: url("bunnybackground.jpg");
-    
 }
 
 /* Found how to do a fixed width here: https://www.sitepoint.com/community/t/how-do-you-make-a-website-a-fixed-width/6885/2 */
-#fixedwidth {
-    width: 700px;
+.fixedContainer {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 p {
